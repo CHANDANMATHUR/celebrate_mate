@@ -1,19 +1,26 @@
 import Login from "./Login";
 import SignUp from "./SineIn";
-import { useEffect } from "react";
 import EventForm from "./CreateEvent";
-import axios from "axios";
 import Navbar from "./Navbar";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 const Home = () => {
 
 
 
   return (
     <>
-      <Navbar />
-      <EventForm />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/SineIn" element={<SignUp />} />
+          <Route path="/CreateEvent" element={<EventForm />} />
+        </Routes>
+      </Router>
     </>
   )
 }
+
+
 
 export default Home;
