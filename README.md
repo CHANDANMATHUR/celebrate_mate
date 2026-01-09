@@ -70,17 +70,8 @@ Email and SMS reminders are triggered automatically
 
 Project Structure (Simplified)
 
-CelebrateMate/
-│
-├── frontend/        # React + Vite application
-│
-├── backend/         # Spring Boot application
-│   ├── controller/ # REST controllers
-│   ├── service/    # Business logic
-│   ├── repository/ # Database access
-│   ├── model/      # Entity classes
-│
-└── database/        # MySQL / MongoDB configuration
+<img width="698" height="538" alt="Screenshot (114)" src="https://github.com/user-attachments/assets/c583188e-b75c-4fef-8395-ceab9367b1af" />
+
 
 
 Installation & Setup
